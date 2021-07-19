@@ -1,2 +1,2 @@
 # Alexa-Init
-- This is an Alexa extension files.
+- This is an Alexa extension file.
