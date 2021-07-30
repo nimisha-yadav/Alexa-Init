@@ -1,7 +1,7 @@
 {
-"manifest_version":2,
-"name":"JS Scan-Chrome",
-"description":"Test scanner plugin for chrome",
+"manifest_version":1,
+"name":"Alexa-Init",
+"description":"Test scanner plugin for Chrome",
 "version":"0.1",
 "background": {
 	"scripts": ["background.js"]
