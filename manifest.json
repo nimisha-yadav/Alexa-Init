@@ -1,0 +1,25 @@
+{
+"manifest_version":2,
+"name":"JS Scan-Chrome",
+"description":"Test scanner plugin for chrome",
+"version":"0.1",
+"background": {
+	"scripts": ["background.js"]
+	},
+"content_scripts":[{
+	"matches":["<all_urls>"],
+	"js":["content.js"],
+	 "all_frames": true,
+	"run_at":"document_start"
+}],
+
+"permissions":[
+	"webRequest",
+	"activeTab",
+	"tabs",
+	"http://*/",
+	"https://*/",
+	"downloads"
+]
+
+}
